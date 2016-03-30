@@ -1,0 +1,15 @@
+﻿body {
+    font-family: Arial;
+}
+table {
+    border: thin;
+    width: 90%;
+}
+th {
+    font: bold;
+    background-color: lightgray;
+}
+td {
+    text-align:center;
+    align-content:center;
+}
