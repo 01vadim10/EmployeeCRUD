@@ -1,1 +1,13 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="EssentialTools.MvcApplication" Language="C#" %>
+﻿<%@ Application Language="C#" %>
+
+<script runat="server">
+
+    static string _pagePath;
+
+    void Application_BeginRequest(object sender, EventArgs e)
+    {
+        HttpContext context = HttpContext.Current;
+        context.RewritePath("~/Index.cshtml");
+    }
+
+</script>
