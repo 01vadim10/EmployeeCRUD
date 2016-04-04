@@ -12,6 +12,7 @@ namespace EmployeeCRUD
         {
             HttpContext context = HttpContext.Current;
             //context.RewritePath("~/Index.cshtml");
+            
         }
     }
 }
