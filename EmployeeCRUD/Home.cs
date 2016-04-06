@@ -1,18 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
+using EmployeeCRUD.Classes;
 
 namespace EmployeeCRUD
 {
-    public class Home
+    public class Home : ApiController
     {
-        public void Index()
-        {
-            HttpContext context = HttpContext.Current;
-            //context.RewritePath("~/Index.cshtml");
-            
-        }
+        string page = "Controller Home Page";
     }
 }

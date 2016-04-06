@@ -84,6 +84,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Classes\Database.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -98,6 +101,8 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Index.cshtml" />
+    <Content Include="ViewPage.cshtml" />
+    <Content Include="Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,7 +111,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes\" />
     <Folder Include="Images\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
